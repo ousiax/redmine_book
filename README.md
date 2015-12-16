@@ -7,7 +7,7 @@ Usages:
 
 You can also create a task on Windows: 
 
-    > schtask /Create /?
+    > schtasks /Create /?
 
 Notes: Before execute *book.py*, please reset the corresponding setting item in the *settings.py*.
 
