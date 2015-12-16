@@ -9,4 +9,11 @@ You can also create a task on Windows:
 
     > schtask /Create /?
 
-Notes: Before execute `book.py`, please reset the corresponding setting item in the `settings.py`.
+Notes: Before execute *book.py*, please reset the corresponding setting item in the *settings.py*.
+
++ REDMINE_URL
++ REDMINE_KEY
++ ISSUE_ID
++ HOURS
++ ACTIVITY_ID
++ COMMENTS
