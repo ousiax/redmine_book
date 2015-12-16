@@ -7,4 +7,4 @@ REDMINE_KEY = 'API key'
 ISSUE_ID = 26024
 HOURS = 8
 ACTIVITY_ID = 9
-COMMENTS = 'Commnets'
+COMMENTS = 'Comments'
