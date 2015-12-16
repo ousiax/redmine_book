@@ -17,3 +17,6 @@ Notes: Before execute *book.py*, please reset the corresponding setting item in 
 + HOURS
 + ACTIVITY_ID
 + COMMENTS
+
+Remark:
+The file **get-pip.py** is download from [get-pip.py](https://bootstrap.pypa.io/get-pip.py get-pip)
