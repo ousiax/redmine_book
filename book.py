@@ -18,10 +18,10 @@ def is_weekday():
 
 def book():
     if not is_weekday():
-        print 'today is not weekday, do you want to continue. Y/N ?'
+        print('today is not weekday, do you want to continue. Y/N ?')
         for i in range(4):
             if i == 3:
-                print 'more than 3 times, failure.'
+                print('more than 3 times, failure.')
                 return
             p = raw_input().lower()
             if p == 'y':
@@ -29,16 +29,16 @@ def book():
             elif p == 'n':
                 return
             else:
-                print 'Y/N ?'
+                print('Y/N ?')
 
     redmine = Redmine(settings.REDMINE_URL, key=settings.REDMINE_KEY)
 
     if not is_exist_today_entry(redmine):
         time_entry = create_today_time_entry(redmine)
         if time_entry.save():
-            print 'done, created today time entry sucessfully.'
+            print('done, created today time entry sucessfully.')
     else:
-        print 'noop, today time entry has been created'
+        print('noop, time entry at today has been created')
 
 
 def create_today_time_entry(redmine):
