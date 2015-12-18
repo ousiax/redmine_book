@@ -7,21 +7,24 @@ Usages:
 
 You can also create a task on Windows with `schedule_task.bat`: 
 
-    > schedule_task
+    > cd utils
+    > schedule_task.bat
 
-Notes: Before execute *book.py*, please reset the corresponding setting item in the *settings.py*.
+**Notes**: Before execute *book.py*, please reset the corresponding arguments in file *book.py* as follows:
 
-+ REDMINE_URL
-+ REDMINE_KEY
-+ ISSUE_ID
-+ HOURS
-+ ACTIVITY_ID
-+ COMMENTS
+    url = 'http://redmine.citicsinfo.com/redmine/'
+    key = '968aeb29e18dc64df3cd0d14b81c93f3e64ea9ff'
+
+    time_entry = {
+        'issue_id': 29417,
+        'hours': 8,
+        'activity_id': 9,  
+        'comments': '场外非标产品系统设计开发',
+        }
 
 Remark:
 The file *get-pip.py* is download from [get-pip.py](https://bootstrap.pypa.io/get-pip.py get-pip)
 
 Reference: 
 
-1. [pip](https://pip.pypa.io/en/stable/ pip)
 1. [Rest api - Redmine](http://www.redmine.org/projects/redmine/wiki/Rest_api_with_python "Using the REST API with Python")

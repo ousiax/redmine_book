@@ -11,4 +11,6 @@
 @rem Install Python-Redmine
 @rem @pip install python-redmine --index-url="https://pypi.mirrors.ustc.edu.cn/simple"
 
-@echo @schtasks /create /tr "'%pythonexe%' \"%CD%\book.py\"" /sc daily /tn "Redmine Book"  /st 15:00 /ru system /rl highest /f
+@rem Create a task to windows task scheduler
+@for %%i in ("%~dp0..") do @set "book_py=%%~fi\book.py"
+@schtasks /create /tr "'%pythonexe%' \"%book_py%" /sc daily /tn "Redmine Book"  /st 15:00 /ru system /rl highest /f
