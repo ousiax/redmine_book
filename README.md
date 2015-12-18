@@ -22,8 +22,8 @@ You can also create a task on Windows with `schedule_task.bat`:
         'comments': '场外非标产品系统设计开发',
         }
 
-Remark:
-The file *get-pip.py* is download from [get-pip.py](https://bootstrap.pypa.io/get-pip.py get-pip)
+
+The file *utils/get-pip.py* is download from [get-pip.py](https://bootstrap.pypa.io/get-pip.py get-pip)
 
 Reference: 
 
