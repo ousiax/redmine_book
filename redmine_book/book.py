@@ -72,6 +72,7 @@ def create_today_time_entry(redmine, **kwargs):
     time_entry.comments = kwargs.get('comments', None)
     return time_entry
 
+
 def main():
     print('hello book')
 

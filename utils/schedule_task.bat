@@ -6,10 +6,10 @@
 @del pythonexe.tmp
 
 @rem Install Pip
-@rem @python "get-pip.py"
+@python "get-pip.py"
 
 @rem Install Python-Redmine
-@rem @pip install python-redmine --index-url="https://pypi.mirrors.ustc.edu.cn/simple"
+@pip install python-redmine --index-url="https://pypi.mirrors.ustc.edu.cn/simple"
 
 @rem Create a task to windows task scheduler
 @for %%i in ("%~dp0..") do @set "book_py=%%~fi\book.py"
