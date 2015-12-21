@@ -3,7 +3,6 @@
 
 from datetime import date
 from redmine import Redmine
-from . import settings
 
 
 def is_exist_today_entry(redmine, issue_id):
