@@ -1,5 +1,5 @@
 # redmine_book
-A utility script writed with python to commit time entry on Redmine.
+A script writed with python to commit time entry on Redmine.
 
 Usages:
     
@@ -22,9 +22,6 @@ You can also schedule a task on Windows with `schedule_task.bat`:
         'comments': '场外非标产品系统设计开发',
         }
 
-
-The file *utils/get-pip.py* is download from [get-pip.py](https://bootstrap.pypa.io/get-pip.py get-pip)
-
-Relations: 
+Appendix:
 
 1. [Rest api - Redmine](http://www.redmine.org/projects/redmine/wiki/Rest_api_with_python "Using the REST API with Python")

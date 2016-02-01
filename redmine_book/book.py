@@ -2,7 +2,7 @@
 # -*- encoding:utf-8 -*-
 
 from datetime import date
-from redmine import Redmine
+from .packages.redmine import Redmine
 
 
 def is_exist_today_entry(redmine, issue_id):
