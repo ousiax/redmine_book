@@ -10,6 +10,11 @@ You can also schedule a task on Windows with `schedule_task.bat`:
     > cd utils
     > schedule_task.bat
 
+(**Deletes** the task with 'schedule_task.bat')
+
+    > cd utils
+    > unschedule_task.bat 
+
 **Notes**: Before execute *book.py*, please reset the corresponding arguments in file *book.py* as follows:
 
     url = 'http://redmine.citicsinfo.com/redmine/'
