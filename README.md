@@ -23,7 +23,7 @@ Deletes the task with 'schedule_task.bat'
 
 Before execute *book.py*, please reset the corresponding arguments in file *book.py* as follows:
 
-    url = 'http://redmine.citicsinfo.com/redmine/'  # API URL
+    url = 'http://redmine.example.com/redmine/'  # API URL
     key = '968aeb29e18dc64df3cd0d14b81c93f3e64ea9ff' # API访问键 (just for demo, not a valid authentication key.)
 
     time_entry = {
