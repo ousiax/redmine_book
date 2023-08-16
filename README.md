@@ -1,5 +1,5 @@
 # Redmine book
-A script writed with python to commit time entry on Redmine.
+A script wrote with python to commit time entry on Redmine.
 
 **Run with terminal**
     
